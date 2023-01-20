@@ -1,0 +1,334 @@
+
+  * {
+    box-sizing: border-box;
+    height: 1vh;
+  
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  html {
+    display: block;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+   
+  
+    background: #F3F5FC;
+    font-weight: 400px;
+  }
+ 
+  .leftBox {
+    width: 50vw;
+  }
+
+  .informacion {
+    position: relative;
+    top: -10px;
+  
+    float: left;
+  
+    width: 100%;
+    height: auto;
+    padding: 0.5% 0 0.5% 0;
+  
+    margin: 2% 0 2% 0;
+  
+    background: transparent;
+  }
+  .informacion img {
+    float: left;
+  
+    width: 18px;
+    height: 18px;
+  
+    margin: 1% 2% 1% 13.5%;
+  }
+  
+  .informacion text {
+    float: left;
+  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+  
+    margin: 1.5% 2% 1% 0;
+  }
+  .leftBox {
+    float: left;
+  
+    width: 69%;
+    height: auto;
+  
+    background: transparent;
+    /* background: red; */
+  }
+  
+  .input {
+    width: 95%;
+    height: 425px;
+  
+    margin: 3% 0 1% 0;
+  
+    background: transparent;
+    /* background: yellow; */
+  }
+  #texto {
+    /* float: left; */
+    flex-basis: 95%;
+  
+    width: 80%;
+    height: 340px;
+  
+    margin: 0 5% 5% 15%;
+  
+    font-size: 30px;
+    line-height: 48px;
+  
+    /* color: #c6555e; */
+    text-shadow: #ebebeb 1px 1px 2px;
+    color: black;
+    /* background: #f78807; */
+  
+    background: transparent;
+  
+    resize: none;
+    border: none;
+  }
+  
+  #texto:focus {
+    outline: none
+  }
+  
+  #texto::-webkit-input-placeholder {
+    color: blue;
+  }
+
+  .botones {
+    width: 100%;
+    height: auto;
+  
+    background: transparent;
+    /* background: pink; */
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .encriptar {
+    padding: 2%;
+    position: relative;
+  
+    width: 30%;
+    height: auto;
+    margin: 0 0 0 14%;
+  
+    background: blue;
+    border-radius: 100px;
+    border: solid 3px blue;
+  
+    text-align: center;
+    color: #ffffff;
+  
+    cursor: pointer;
+  
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 16px 3px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 16px 3px rgba(0, 0, 0, 0);
+  }
+  
+  .encriptar img {
+    position: relative;
+    top: 3px;
+  
+    width: 20px;
+    height: 20px;
+  }
+  
+  .encriptar:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+  }
+  
+  .encriptar:active {
+    transform: scale(0.9);
+    transition: 0.4s;
+  }
+  
+  .desencriptar {
+    padding: 2%;
+    position: relative;
+  
+    height: auto;
+    margin: 0 0 0 14%;
+  
+    width: 30%;
+    background: #ebebeb;
+    border-radius: 100px;
+    border: solid 3px blue;
+  
+    text-align: center;
+    color: #009db5;
+  
+    cursor: pointer;
+  
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 16px 3px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 16px 3px rgba(0, 0, 0, 0);
+  }
+  
+  .desencriptar:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+  }
+  
+  .desencriptar:active {
+    transform: scale(0.9);
+    transition: 0.4s;
+  }
+  
+  .desencriptar img {
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+  }
+
+  #rightBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    float: right;
+  
+    position: relative;
+    bottom: 18%;
+    right: 1%;
+  
+    width: 30%;
+    height: 96%;
+  
+    border-radius: 30px;
+  
+    background: #F3F5FC;
+  
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  }
+  
+  .output {
+    width: 95%;
+    height: 95%;
+    background: transparent;
+  }
+  
+  .pictureText {
+    background: transparent;
+  }
+  
+  .picture {
+    width: 99.9%;
+    height: auto;
+  
+    margin: 30% 0 3% 2.5%;
+  
+    background: transparent;
+  }
+  
+  .picture img {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .pictureText h2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+  
+    margin: 0 0 0 3%;
+  
+    color: black;
+  }
+  
+  .pictureText p {
+    margin: 20% 3% 0 3%;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+  
+    color: #2b2b2b;
+  }
+  
+  .success textarea {
+    position: relative;
+    /* bottom: 370px; */
+    right: 33px;
+  
+    width: 99%;
+    height: 440px;
+  
+    flex-basis: 50%;
+    margin: 0 2% 0 15%;
+  
+    font-size: 20px;
+    line-height: 40px;
+  
+    color: black;
+  
+    text-align: center;
+  
+    background: transparent;
+    
+  
+    resize: none;
+    border: none;
+  }
+  
+  #textoResultado:focus {
+    outline: none;
+  }
+  
+  #textoResultado::-webkit-input-placeholder {
+    color: blue;
+  }
+  
+  #copiar {
+    position: relative;
+    bottom: -25px;
+    left: 10%;
+  
+    width: 60%;
+    height: auto;
+    margin: 0 14% 0 14%;
+  
+    padding: 5%;
+    
+  
+    background: #ebebeb;
+    border-radius: 100px;
+    border: 3px solid blue;
+  
+    color: #2b2b2b;
+  
+    visibility: hidden;
+  
+    cursor: pointer;
+  
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 16px 3px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 16px 3px rgba(0, 0, 0, 0);
+  }
+  
+  #copiar:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+  }
+  
+  #copiar:active {
+    transform: scale(0.9);
+    transition: 0.4s;
+  }
+  
+ 
+
+  
+  
+   
